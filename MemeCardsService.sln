@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemeCardsService", "MemeCardsService\MemeCardsService.csproj", "{82B08969-7428-476E-A7F5-A423DBDAFC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "ConfigurationServiceBase\Configuration.csproj", "{1A166E2A-7223-4BD0-A1DC-525BEC019BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "Networking\Networking.csproj", "{1DBAB1B2-A68C-4C8F-8C26-1C9B3CE87039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{93873831-4AFF-40BF-A45F-72FE8745F355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B08969-7428-476E-A7F5-A423DBDAFC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B08969-7428-476E-A7F5-A423DBDAFC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B08969-7428-476E-A7F5-A423DBDAFC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B08969-7428-476E-A7F5-A423DBDAFC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A166E2A-7223-4BD0-A1DC-525BEC019BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A166E2A-7223-4BD0-A1DC-525BEC019BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A166E2A-7223-4BD0-A1DC-525BEC019BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A166E2A-7223-4BD0-A1DC-525BEC019BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBAB1B2-A68C-4C8F-8C26-1C9B3CE87039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBAB1B2-A68C-4C8F-8C26-1C9B3CE87039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBAB1B2-A68C-4C8F-8C26-1C9B3CE87039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBAB1B2-A68C-4C8F-8C26-1C9B3CE87039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93873831-4AFF-40BF-A45F-72FE8745F355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93873831-4AFF-40BF-A45F-72FE8745F355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93873831-4AFF-40BF-A45F-72FE8745F355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93873831-4AFF-40BF-A45F-72FE8745F355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F7CD0AA-8DE5-4D6D-A9E5-7D6175F0D43B}
+	EndGlobalSection
+EndGlobal
